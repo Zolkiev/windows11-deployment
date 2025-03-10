@@ -1,0 +1,60 @@
+# Ignore sensitive files
+*.pfx
+*.key
+**/credentials.xml
+**/secrets.json
+**/password*.txt
+
+# Ignore log files
+*.log
+*.trace
+**/logs/
+
+# Ignore temporary files
+*.tmp
+*~
+$*
+*.bak
+*.old
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore large binary files
+*.wim
+*.iso
+*.exe
+*.msi
+*.img
+*.vhd
+*.vhdx
+
+# Ignore package files
+*.cab
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Ignore Office temp files
+~$*
+*.xlk
+
+# Ignore Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Specific folders to ignore
+/drivers/packages/
+/images/wim/
+/logs/
+/temp/
+/backup/
+/downloads/
